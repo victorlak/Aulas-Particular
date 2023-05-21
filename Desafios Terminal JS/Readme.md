@@ -87,6 +87,7 @@ JavaScript fornece diversos métodos úteis para manipulação de strings, array
 - includes() - verificar se um elemento está presente em um array
 - length - verifica a quantidade de elementos em um array
 - typeof - verificar o tipo de um elemento
+- push() - adcionar um elemento em um array
 ...Existem varios
 ```javascript
 let nomes = ["pedro", "joao", "marcos"];
@@ -97,6 +98,9 @@ console.log(nomes.length)
 for (let i = 0; i < nomes.length; i++) {
   console.log(nomes[i]);
 }
+
+nomes.push("Vitor")
+// nomes = ["pedro" ,"joao","marcos","Vitor"]
 
 //typeof esse serve para dizer o tipo de um elemento
 let nome = "pedro"

@@ -16,7 +16,7 @@ Saida esperada:
 6
 */
 function somaArray(lista){
-
+    
 }
 
 // Essa funão deve retornar uma lista apenas com os valores pares 
