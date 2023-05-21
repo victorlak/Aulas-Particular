@@ -36,5 +36,7 @@ function separeOsPares(lista){
 
 }
 
+module.exports = {somaArray, separeOsPares};
+
 
 

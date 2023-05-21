@@ -41,6 +41,9 @@ function separeUsuarios(lista){
 }
 
 
+module.exports = {separeUsuarios, destaqueAdms}
+
+
 
 
 
