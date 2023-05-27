@@ -1,15 +1,7 @@
-let entrada = require("prompt-sync")()
-function getNumber(pergunta){
-    return Number(entrada(pergunta));
-}
+let helper = require('./testeHelper')
 
-function getString(pergunta){
-    return String(entrada(pergunta));
-}
+let a =  [["pedro","joao","matheus"],["maça","banana"]];
 
-
-
-let nome = ["vitor","carla","pedro"]
 
 
 
