@@ -4,7 +4,7 @@ describe('somaArray', () => {
   test('deve conter uma lista informando quem é adm e quem não é', () => {
     const lista = ["pedro"];
     const resultado = desafio.destaqueAdms(lista);
-    let resolved = "pedro - ADM"
+    let resolved = "pedro - ADM\n"
     expect(resultado).toBe(resolved);
   });
 });
