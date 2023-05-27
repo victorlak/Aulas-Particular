@@ -37,7 +37,7 @@ let usuarios = [ fabricio , jean , marco , pedro]
 
 */
 function separeUsuarios(lista){
-let a = 10;
+let abc = "aaaa";
 }
 
 
