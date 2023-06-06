@@ -1,9 +1,9 @@
-let helper = require('./testeHelper')
+let entrada = require("prompt-sync")();
 
-let a =  [["pedro","joao","matheus"],["maça","banana"]];
-
-
+let nome = entrada("qual seu nome");
 
 
-
+while (true){
+    nome = Number(entrada("nome: "));
+}
 

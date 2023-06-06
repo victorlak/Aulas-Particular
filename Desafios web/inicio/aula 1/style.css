@@ -1,0 +1,15 @@
+.bg {
+    background-color: aqua;
+}
+
+.tm {
+    font-size: 50pt;
+}
+
+.box {
+    border: 5px solid yellow;
+}
+
+.sublinhado {
+    text-decoration: overline;
+}

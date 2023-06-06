@@ -1,0 +1,60 @@
+   /* Izi Demais
+        Gere um numero aleatorio de 1 a 3 , e faça uma troca de estilo 
+        baseado no resultado desse numero
+
+        1: Cor do texto fica vermelha
+
+        2: Cor do texto fica azul
+
+        3: Cor do texto fica violeta
+    */
+
+
+
+/* Difícil
+"Problema com o estágio"
+
+Olá, preciso de ajuda. O desenvolvedor responsável pela verificação de testes do sistema cometeu alguns erros. Eu pedi a ele que inserisse temporariamente uma senha fixa, apenas para apresentarmos um protótipo à equipe de design, a fim de trabalhar na tela. Solicitei que a senha fosse "cafe123". No entanto, hoje cedo ele me informou que não conseguiu fazer isso por algum motivo.
+
+Eu pedi para ele verificar o log e identificar o que estava dando errado, mas ele disse que não sabe porque o problema não é registrado no log. Segundo ele, pode haver mais de um problema.
+
+Será que você poderia resolver esse problema para mim? Abaixo segue o código completo do corpo. Agradeço sua ajuda, cara. :)
+
+<body>
+    <h1 id="title">Faça login</h1>
+    Senha:<input type="text" id="input">
+    <button type="button" id="btn">Entrar</button>
+
+    <script>
+        let title = document.querySelector('#title');
+        let input = document.querySelector('#input');
+        let btn = document.querySelector("#btn");
+        let senha = "cafe123";
+
+        btn.addEventListener('evento',()=>{
+            let Textinput = document.querySelector('#input');
+
+            if (Textinput === senha) {
+                title.textContent = "Acesso Liberado";
+                title.style.color = "green";
+            }else {
+                title.textContent = "Acesso Negado";
+                title.style.color = "red";
+            }
+
+        })
+
+    </script>
+</body>
+
+*/
+
+
+
+
+
+
+
+
+*/
+       

@@ -26,7 +26,7 @@ let array = [
         filmesFavoritos: ["Vingadores: Ultimato", "Matrix", "Cidade de Deus"],
         endereco: {
             cidade: "São Paulo",
-            cep: 01000000,
+            cep: 123123,
             uf: "SP",
         }
     },

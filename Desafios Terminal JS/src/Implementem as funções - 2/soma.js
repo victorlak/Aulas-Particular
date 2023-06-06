@@ -23,7 +23,7 @@ let soma = 0;
 while (i < lista.length) {
 
     soma = soma + lista[i];
- i++;
+    i++;
 }
 return soma;
 }
@@ -50,12 +50,11 @@ function separeOsPares(lista){
     while (i < lista.length){
       
         if ( lista[i]% 2 === 0){
-         
+
             pares.push(lista[i])
-            
         }
         i++;
-    }
+    }  
    return pares;
 }
 
