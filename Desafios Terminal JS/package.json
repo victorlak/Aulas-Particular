@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "csv-writer": "^1.6.0",
     "prompt-sync": "^4.2.0",
     "randomcolor": "^0.6.2"
   },

@@ -1,0 +1,2 @@
+Desafio 2: Somar dois números
+Crie uma página HTML com um título grande escrito "Resultado". Adicione dois inputs de texto lado a lado. Quando o usuário preenche os dois inputs com números e clica em "somar", o texto "Resultado" deve desaparecer e mostrar apenas o resultado da soma.
