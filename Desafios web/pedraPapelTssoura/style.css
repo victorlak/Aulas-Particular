@@ -34,3 +34,6 @@
 .selected{
     filter: grayscale(100);   
 }
+.img-modal{
+    width: 100px;
+}
