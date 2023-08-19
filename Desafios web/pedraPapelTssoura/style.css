@@ -28,12 +28,62 @@
     filter: grayscale(100);
     transform: scale(1.1);
 }
-.bnt-gamar{
 
-}
 .selected{
     filter: grayscale(100);   
 }
 .img-modal{
     width: 100px;
+}
+.modal-body{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.modal-body h1{
+    color: rgb(62, 15, 105);
+    font-size:30px ;
+}
+.modal-body h2{
+    color: rgb(62, 15, 105);
+}
+.jogada-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: 3px solid rgb(77, 10, 71);
+    padding: 2%; 
+    background-color: rgb(216, 209, 223);
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    color: rgb(50, 15, 83);
+    background-color: rgba(137, 43, 226, 0.308);
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+}
+.modal-footer button{
+    color: rgb(255, 255, 255);
+    background-color:blueviolet
+}
+.modal-header{
+    background-color: rgb(43, 32, 53);
+    color: blanchedalmond;
+}
+.modal-content{
+    border: 30px !important;
+}
+.VS{
+    display: flex;
+    align-items: center;
+    background-color: rgb(126, 2, 120);
+    padding: 20px;
+    margin-bottom: 2px;
+    height: 50px;
+    border-radius: 5%;
+    color: aliceblue;
 }
